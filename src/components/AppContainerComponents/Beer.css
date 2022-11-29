@@ -1,0 +1,81 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.beer-container {
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  padding-top: 30px;
+  width: 350px;
+  height: 350px;
+  background-color: rgb(188, 194, 199);
+  border-radius: 30px;
+  font-size: 30px;
+  -webkit-box-shadow: 12px 5px 21px -7px rgb(0, 0, 0);
+  -moz-box-shadow: 12px 5px 21px -7px rgb(0, 0, 0);
+  box-shadow: 12px 5px 21px -7px rgb(0, 0, 0);
+}
+
+.beer-container.clicked {
+  width: 720px;
+}
+
+.beer-container:hover {
+  cursor: pointer;
+  background-color: rgb(209, 218, 227);
+  transform: scale(1.03);
+  transition: transform 0.5s;
+}
+
+.change-info-btn.clicked img {
+  width: 30px;
+  height: 30px;
+}
+
+.change-info-btn {
+  visibility: hidden;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.change-info-btn.clicked {
+  visibility: visible;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+}
+
+.change-info-btn img:hover {
+  transform: scale(1.15);
+  transition: transform 0.5s;
+}
+
+.beer-info img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.rating img {
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+}
+
+.beer-description {
+  visibility: hidden;
+}
+
+.beer-description.clicked {
+  visibility: visible;
+  margin-left: 30px;
+}

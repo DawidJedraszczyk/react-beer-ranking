@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px 30px 0px;
+  width: 100vw;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+header h1 span {
+  text-shadow: rgb(255, 193, 7) 0.1em 0.1em 0.2em;
+}
+
+header h1:hover {
+  transform: scale(1.05);
+  transition: transform 0.7s;
+}
+
+header .search-bar {
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+header img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+header .search-bar input {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  background-color: white;
+}
+header .search-bar img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.add.clicked {
+  transform: rotate(45deg);
+  transition: transform 0.5s;
+}
+
+.add {
+  transform: rotate(0deg);
+  transition: transform 0.5s;
+}

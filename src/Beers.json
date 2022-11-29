@@ -1,0 +1,52 @@
+{
+  "beersList": [
+    {
+      "name": "Dziki sad - śliwkowy",
+      "image": "./../assets/images/beers/dziki-sad-sliwka.png",
+      "rating": 5,
+      "description": "Delikatny smak, słodkie piwo z dosyć dużym % alkoholu, który w smaku nie jest wyczuwalny"
+    },
+    {
+      "name": "Dziki sad - czereśniowy",
+      "image": "./../assets/images/beers/dziki-sad-czeresnia.png",
+      "rating": 5,
+      "description": "Podobnie jak pozostałe piwa Dziki sad, piwo delikatne przy dosyć dużym % alkoholu. Smak doskonały"
+    },
+    {
+      "name": "Dziki sad - jabłko",
+      "image": "./../assets/images/beers/dziki-sad-jablko.png",
+      "rating": 5,
+      "description": "Dziki sad jest klasyka gatunku, moje ulubione piwo bez znaczenia jaki smak"
+    },
+    {
+      "name": "Harnaś - piwo jasne",
+      "image": "./../assets/images/beers/harnas.png",
+      "rating": 3,
+      "description": "Piwo rozpopularyzowane przez piosenkę. Jest dobre jak nie ma się pieniędzy na dziki sad."
+    },
+    {
+      "name": "Dębowe dojrzałe mocne",
+      "image": "./../assets/images/beers/debowe.png",
+      "rating": 6,
+      "description": "Tutaj trzeba zapijać. Nie jest to do wypicia do meczu, to jest wstępniak do grubszej imprezy."
+    },
+    {
+      "name": "Somersby 0%",
+      "image": "./../assets/images/beers/somersby.png",
+      "rating": 0,
+      "description": "0%, nie mam pojęcia czemu się tutaj znalazło. Jest to sok nie piwo ale dodalem z uwagi na popularność."
+    },
+    {
+      "name": "Beczkowe mocne wiśnia",
+      "image": "./../assets/images/beers/bmw.png",
+      "rating": 6,
+      "description": "Tutaj przy dużej mocy mamy całkiej dobry smak. Nie jest to najlepsze piwo jakie piłem ale przy tej ilości etanolu jest to wspaniałe połączenie."
+    },
+    {
+      "name": "lech",
+      "image": "./../assets/images/beers/lech.png",
+      "rating": 4,
+      "description": "Piwo nie w moim guście, ocena jedynie za nazwę bo jestem z Poznania."
+    }
+  ]
+}

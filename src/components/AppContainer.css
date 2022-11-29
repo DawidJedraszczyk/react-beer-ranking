@@ -1,0 +1,8 @@
+.beers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  color: black;
+  font-size: 45px;
+}

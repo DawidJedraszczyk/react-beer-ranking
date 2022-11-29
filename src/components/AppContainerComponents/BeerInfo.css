@@ -1,0 +1,15 @@
+.beer-info {
+  display: flex;
+  justify-content: center;
+}
+.beer-description.clicked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.beer-description {
+  visibility: hidden;
+  width: 0px;
+}
